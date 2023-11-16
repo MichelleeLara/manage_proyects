@@ -1,0 +1,54 @@
+---
+import Layout from "../layouts/Layout.astro";
+import MenuMobile from "../components/MenuMobile.astro";
+---
+
+<Layout title="software-solutions">
+  <div class="flex lg:min-h-screen">
+    <MenuMobile />
+    <div class="w-screen absolute bg-[#242529] md:static" id="body">
+      <div class="mx-10 flex flex-col gap-10">
+        <h3 class="text-2xl font-semibold text-white text-center">Software Solutions</h3>
+        <div class="grid grid-cols-1 gap-10 mb-20 md:grid-cols-3 md:mb-0">
+            <div class="border-1 min-h-[100px] rounded-lg p-2">
+                <p class="text-white text-sm">Tecnologías usadas</p>
+                <div class=""></div>
+            </div>
+            <div class="flex flex-col gap-3">
+                <div class=" w-ful  min-h-[18rem] drop-shadow-xl bg-[url('/mock_soft_mobile1.webp')] bg-contain bg-center  bg-no-repeat  md:bg-[url('/mock_soft_desk.webp')] md:mt-8">
+                </div>
+                <div class="flex gap-4 items-center justify-center">
+                    <div class="bg-[#28c78026] w-fit flex items-center justify-center gap-2 px-5 rounded-full text-[#039754] text-sm">
+                        <div class="w-2 h-2 bg-[#28c780] rounded-full"></div>
+                        <p>Activo</p>
+                    </div>
+                    <div class="text-white tracking-wide text-left flex flex-col gap-1 items-center justify-center">
+                        <p class="text-sm font-semibold">Sofware Solutions</p>
+                        <a href="https://softsolutionss.netlify.app/" class="hover:underline text-gray-300 ">
+                            <p class="text-xs text-gray-400 font-normal">softsolutionss.netlify.app</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-1 min-h-[100px] rounded-lg p-2">
+                <p class="text-white text-sm">Tecnologías usadas</p>
+                <div class=""></div>
+            </div>
+            <div class="border-1 min-h-[100px] rounded-lg p-2">
+                <p class="text-white text-sm">Tecnologías usadas</p>
+                <div class=""></div>
+            </div>
+            <div class="border-1 min-h-[100px] rounded-lg p-2">
+                <p class="text-white text-sm">Tecnologías usadas</p>
+                <div class=""></div>
+            </div>
+            <div class="border-1 min-h-[100px] rounded-lg p-2">
+                <p class="text-white text-sm">Tecnologías usadas</p>
+                <div class=""></div>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</Layout>
